@@ -1,0 +1,105 @@
+.contact-section {
+  padding: 80px 60px;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-sub {
+  text-align: center;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
+}
+
+.info-box {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+ 
+.info-box .icon {
+  background-color: rgb(224, 255, 255);
+  color: rgb(0, 255, 255);
+  font-size: 24px;
+  padding: 12px;
+  border-radius: 50%;
+  margin-right: 16px;
+   
+  position: relative;
+}
+ 
+.info-box h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.info-box p {
+  margin: 4px 0 0 0;
+  color: #333;
+}
+
+.contact-form {
+  flex: 2;
+  min-width: 300px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.submit-btn {
+  background-color: rgb(0, 255, 255);
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #00cccc;
+}

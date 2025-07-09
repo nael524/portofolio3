@@ -1,0 +1,91 @@
+.resume-section-main {
+  padding: 80px 60px;
+  background: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+}
+
+.resume-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.resume-sub {
+  text-align: center;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+.resume-wrapper {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.resume-left,
+.resume-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.resume-item {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.timeline {
+  display: flex;
+  position: relative;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgb(0, 255, 255);
+  position: relative;
+  top: 6px;
+  margin-right: 18px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  width: 2px;
+  height: 100%;
+  background: rgb(0, 255, 255);
+}
+
+.content {
+  flex: 1;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.italic {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 6px;
+}

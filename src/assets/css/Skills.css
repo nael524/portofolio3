@@ -1,0 +1,23 @@
+.skill{
+    color:rgb(0, 255, 255) ;
+    font-weight: bold;
+    font-size: 60px;
+    position: relative;
+    margin-left: 90px;
+    top: 190px;
+}
+.skill1{
+    display: flex;
+    list-style: none;
+    gap :140px;
+}
+.img90{
+    width: 400px;
+    left: 200px;
+    position: relative;
+}
+.img901{
+    width: 300px;
+    position: relative;
+    top: 43px;
+}
